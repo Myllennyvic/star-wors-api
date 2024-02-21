@@ -26,7 +26,14 @@ function renderizarPersonagens(items){
               </div>
           </div>
        `;
-       divPersonagens.classList.add('personagem');
+       divPersonagens.addEventListener('click',()=>{
+            detalhesPersonagens(index)
+       })
+       divPersonagens.classList.add("personagem");
        container.appendChild(divPersonagens)
     })
+}
+
+function detalhesPersonagens (index){
+   window.location.href = `./pages/person.html?index=${index}`
 }

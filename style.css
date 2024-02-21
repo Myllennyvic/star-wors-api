@@ -73,3 +73,7 @@ html{
     background-color: var(--cor-3);
     color: var(--white);
 }
+
+.color{
+    color: var(--white);
+}

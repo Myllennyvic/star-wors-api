@@ -1,0 +1,61 @@
+:root{
+    --black-700: #1d1f23;
+    --gray-700: #123e35 ;
+    --cor-3: #2d4a43;
+    --cor-4: #69818d;
+    --cor-5: #afb3b7;
+    --cor-6: #5a636a;
+    --white: #fff;
+   
+   }
+
+   html{
+    background-color: var(--black-700);
+    font-size: 16px;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form-box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 40%;
+    gap: 0.6rem;
+    color: #fff;
+}
+
+.form-login label{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.form-login input{
+    font-size: 1.1rem;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: .4rem;
+}
+
+.form-login .btn{
+    background-color: var(--cor-3);
+    border: 2px solid;
+    border-radius: 8px;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    height: 30px;
+} 
